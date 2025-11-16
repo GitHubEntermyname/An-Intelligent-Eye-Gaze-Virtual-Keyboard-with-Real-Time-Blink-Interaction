@@ -1,0 +1,16 @@
+name: eye_keyboard_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - opencv
+  - mediapipe
+  - pyautogui
+  - numpy
+  - matplotlib
+  - pytorch
+  - pip
+  - pip:
+      - transformers
+      - tkinter
