@@ -1,0 +1,17 @@
+
+---
+
+## ⚙️ `.gitattributes`
+
+```gitattributes
+* text=auto
+
+*.py text diff=python
+*.ipynb text
+*.json text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
